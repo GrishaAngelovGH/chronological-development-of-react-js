@@ -147,6 +147,65 @@
           <h3>React Compiler (React Forget) (2024)</h3>
           <p>React Compiler is no longer a research project</p>
         </section>
+        <!-- Slide 21 -->
+        <section>
+          <h3>React v19 (2024)</h3>
+          <p>React Compiler - Automatic Memoization - optimizing the components to prevent unnecessary re-renders</p>
+          <ul>
+            <li>deprecated memo()</li>
+            <li>deprecated useMemo()</li>
+            <li>deprecated useCallback()</li>
+          </ul>
+        </section>
+        <!-- Slide 22 -->
+        <section>
+          <p>New use() hook to async load a resource such as a promise or context</p>
+          <ul>
+            <li>replace useEffect() to fetch data</li>
+            <li>you can read a promise</li>
+            <li>use(context) will replace useContext()</li>
+          </ul>
+        </section>
+        <!-- Slide 23 -->
+        <section>
+          <p>Build in support for "use client" and "use server" directives</p>
+        </section>
+        <!-- Slide 24 -->
+        <section>
+          <p>Support for formActions which could be used in both client/server components</p>
+        </section>
+        <!-- Slide 25 -->
+        <section>
+          <p>New form handling hooks: useFormStatus() and useActionState()</p>
+        </section>
+        <!-- Slide 26 -->
+        <section>
+          <p>New useOptimistic() hook to apply temporary updates to the UI while waiting for the server to respond</p>
+        </section>
+        <!-- Slide 27 -->
+        <section>
+          <p>Built in support for metadata tags like title, description and keywords</p>
+        </section>
+        <!-- Slide 28 -->
+        <section>
+          <p>ref passed as a regular prop (no more forwardRef)</p>
+        </section>
+        <!-- Slide 29 -->
+        <section>
+          <p>no more React.lazy</p>
+        </section>
+        <!-- Slide 30 -->
+        <section>
+          <p>Context.Provider to be replaced with Context</p>
+        </section>
+        <!-- Slide 31 -->
+        <section>
+          <p>In React 19, we’re removing the propType checks from the React package, and using them will be silently ignored. If you’re using propTypes, we recommend migrating to TypeScript or another type-checking solution.</p>
+        </section>
+        <!-- Slide 32 -->
+        <section>
+          <p>We’re also removing defaultProps from function components in place of ES6 default parameters.</p>
+        </section>
       </div>
     </div>
     <script src="dist/reveal.js"></script>
