@@ -73,6 +73,30 @@
           <h3>React v17.x (2020 - 2021)</h3>
           The React 17 release is unusual because it doesn’t add any new developer-facing features. Instead, this release is primarily focused on making it easier to upgrade React itself.
         </section>
+        <!-- Slide 8 -->
+        <section>
+          <h3>Introducing Zero-Bundle-Size React Server Components (2020)</h3>
+          <div>
+            <a href="https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023#react-server-components">
+              https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023#react-server-components
+            </a>
+          </div>
+        </section>
+        <!-- Slide 9 -->
+        <section>
+          <p>We are introducing a new kind of component—Server Components—that run ahead of time and are excluded from your JavaScript bundle. Server Components can run during the build, letting you read from the filesystem or fetch static content. They can also run on the server, letting you access your data layer without having to build an API. You can pass data by props from Server Components to the interactive Client Components in the browser.</p>
+        </section>
+        <!-- Slide 10 -->
+        <section>
+          <p> We generally recommend using an existing framework, but if you need to build your own custom framework, it is possible. Building your own RSC-compatible framework is not as easy as we’d like it to be, mainly due to the deep bundler integration needed. The current generation of bundlers are great for use on the client, but they weren’t designed with first-class support for splitting a single module graph between the server and the client. This is why we’re now partnering directly with bundler developers to get the primitives for RSC built-in.</p>
+        </section>
+        <!-- Slide 11 -->
+        <section>
+          <p>Next.js 12 (2021) - React Server Components (alpha)</p>
+          <p>Next.js 13 (2022) - App directory support React Server Components</p>
+          <p>Next.js 13.4 (2023) - Server actions (alpha)</p>
+          <p>Next.js 14 (2023) - Server actions (stable)</p>
+        </section>
       </div>
     </div>
     <script src="dist/reveal.js"></script>
